@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <style>
+    .navbar-custom .navbar-brand {
+      color: #fff;
+    }
+    .navbar-custom .navbar-nav .nav-link {
+      color: #fff;
+    }
+    .developer {
+      height: 240px;
+    }
+    .java {
+      width: 60px;
+      height: 60px;
+    }
+    .title {
+      font-size: 40px;
+      font-weight: bolder;
+      margin-top: 50px;
+      text-align: center;
+    }
+    .subtext {
+      font-size: 18px;
+      border-radius: 10px;
+      padding: 10px;
+    }
+    .about-title {
+      text-align: center;
+    }
+    .card-title {
+      margin-top: 10px;
+      text-align: center;
+      font-size: large;
+    }
+    .card .card-img {
+      width: 80px;
+      height: 80px;
+      margin: 0 auto;
+      display: block;
+    }
+    .projecticon {
+      width: 20px;
+      height: 20px;
+    }
+    .contacticon {
+      width: 30px;
+      height: 30px;
+    }
+    @media (max-width: 1200px) {
+      .edu-card {
+        min-height: 266px;
+        /* Minimum height at the medium breakpoint (768px) */
+      }
+    }
+    .tcs-nqt {
+      height: 25px;
+
+    }
+    .java-besant {
+      height: 25px;
+    }
+    @media (max-width: 1400px) {
+      .cert-card {
+        min-height: 150px;
+        /* Minimum height at the medium breakpoint (768px) */
+      }
+    }
+    </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-custom">
+    <div class="container">
+      <a class="navbar-brand" href="Portfolio.html"><img src="https://logospng.org/download/java/logo-java-1536.png"
+          class="java" alt="Java Developer"><b>DEVELOPER PRAKASH</b></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse ml-auto  justify-content-end" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active px-2">
+            <a class="nav-link " href="Portfolio.html">Home</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="#project">Project</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="#cert">Certification</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 col-sm-12 title mt-3">
+        <b class="text-danger">Hey there !<span class="text-success"> I'm PRAKASH</span></b><br>
+        <span class="text-dark subtext">Recent graduate proficient in Java, eager to embark on a dynamic career
+          journey.</span><br>
+        <span>
+          <a href="mailto:prakashpm2001@gmail.com" target="_blank"><span class="btn btn btn-dark"><i
+                class="fa-regular fa-envelope"></i> Send Email</span></a>
+          <a href="tel:+918056988448" target="_blank"><span class="btn btn-success"><i class="fa-solid fa-phone"></i>
+              Call Me</a>
+        </span>
+        <a href="https://www.linkedin.com/in/prakashmsc01/" target="_blank0">
+          <div class="btn btn-primary"><i class="fa-brands fa-linkedin"></i> LinkedIn</div></a>
+        <a href="./assets/Resume/Prakash_2023_MSc(CS)_Java.pdf" download>
+          <div class="btn btn-danger"><i class="fa-solid fa-file-arrow-down"></i> Resume </div>
+        </a>
+      </div>
+      <div class="col-md-5 col-sm-12 mt-4">
+        <div class="text-center dev-img">
+          <img class="developer img-fluid" src="./assets/developer_img.png" alt="Profile">
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <hr>
+  <div class="bg-dark" id="skills">
+    <div class="container">
+      <h3 class="about-title text-white pt-3">Skills</h3>
+      <div class="row">
+        <div class="col-sm-4 col-md-4 col-lg-2 mt-3">
+          <div class="card">
+            <div class="card-body">
+              <img src="./assets/java_logo.png" class="img-fluid card-img" alt="java">
+              <h5 class="card-title">Java</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-2 mt-3">
+          <div class="card">
+            <div class="card-body">
+              <img src="./assets/springboot_logo.png" class="img-fluid card-img" alt="sb">
+              <h5 class="card-title">Spring Boot</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-2 mt-3">
+          <div class="card">
+            <div class="card-body">
+              <img src="./assets/mysql_logo.png" class="img-fluid card-img" alt="mysql">
+              <h5 class="card-title">MySQL</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-2 mt-3">
+          <div class="card">
+            <div class="card-body">
+              <img src="./assets/html_logo.png" class="img-fluid card-img" alt="html">
+              <h5 class="card-title">HTML5</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-2 mt-3">
+          <div class="card">
+            <div class="card-body">
+              <img src="./assets/css_logo.png" class="img-fluid card-img" alt="css">
+              <h5 class="card-title">CSS3</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-2 mt-3">
+          <div class="card">
+            <div class="card-body">
+              <img src="./assets/bootstrap_logo.png" class="img-fluid card-img" alt="bootstrap">
+              <h5 class="card-title">Bootstrap5</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><br><br>
+  </div>
+  <br>
+  <hr>
+  <div id="project" class="bg-dark">
+    <div class="container">
+      <h3 class="about-title text-white pt-3">Project</h3>
+      <div class="row">
+        <div class="col-md-1 mt-3"></div>
+        <div class="col-sm-12 col-md-10 mt-3">
+          <div class="card">
+            <div class="card-body">
+              <img src="./assets/sgp.png" class="img-fluid card-img" alt="java">
+              <a href="https://github.com/Code-by-Prakash/Student-Grievance-Portal"
+                class="text-dark text-decoration-none" target="_blank">
+                <h5 class="card-title ">Student Grievance Portal</h5>
+              </a>
+              <div class="text-center">
+                <p><img class="projecticon" src="./assets/java_logo.png" alt="java">
+                  <img class="projecticon" src="./assets/springboot_logo.png" alt="springboot">
+                  <img class="projecticon" src="./assets/mysql_logo.png" alt="mysql">
+                  <img class="projecticon" src="./assets/html_logo.png" alt="html">
+                  <img class="projecticon" src="./assets/css_logo.png" alt="css">
+                  <img class="projecticon" src="./assets/bootstrap_logo.png" alt="bootsrap">
+                </p>
+              </div>
+              <div class="text-center">
+                <p class="text-dark">The Student Grievance Portal is a web application developed to streamline the
+                  handling of grievances from students. It provides a platform for students to raise their concerns
+                  anonymously or with secure logins. Administrators can efficiently manage and resolve these grievances,
+                  ensuring a smoother workflow.</p>
+                <a href="https://github.com/Code-by-Prakash/Student-Grievance-Portal" target="_blank">
+                  <div class="btn btn-primary"><i class="fa-solid fa-code"></i> Github</div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><br><br>
+    </div>
+  </div>
+  <br>
+  <hr>
+  <div id="education" class="bg-dark">
+    <div class="container">
+      <h3 class="about-title text-white pt-3">Education</h3>
+      <div class="row">
+        <div class="col-md-6 col-sm-12 mt-3">
+          <div class="card edu-card">
+            <div class="card-body">
+              <ul class="list-unstyled">
+                <li class="text-danger"><b><i class="fa-solid fa-graduation-cap text-secondary"></i>&nbsp;M.Sc. Computer
+                    Science</b></li>
+                <span>Government Arts College for Men(Autonomous), Nandanam, Chennai</span>
+                <br><span>81.04 %</span>
+                <br><br>
+                <li class="text-danger"><b><i class="fa-solid fa-graduation-cap text-secondary"></i> &nbsp;B.Sc.
+                    Computer Science</b></li>
+                <span>Shree Raghavendra Arts & Science College, Chidambaram</span>
+                <br><span>81.95 %</span>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 mt-3">
+          <div class="card edu-card">
+            <div class="card-body">
+              <ul class="list-unstyled">
+                <li class="text-danger"><b><i class="fa-solid fa-school text-secondary"></i>&nbsp;HSC (+2)</b></li>
+                <span>Government Higher Secondary School, B.Mutlur</span>
+                <br><span>88.83 %</span>
+                <br><br>
+                <li class="text-danger"><b><i class="fa-solid fa-school text-secondary"></i>&nbsp;SSLC</b></li>
+                <span>Government High School, Kothattai</span>
+                <br><span>92.8 %</span>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br>
+    </div>
+  </div>
+  <br>
+  <hr>
+  <div id="cert" class="bg-dark">
+    <div class="container">
+      <h3 class="about-title text-white pt-3">Certifications</h3>
+      <div class="row">
+        <div class="col-sm-12 col-md-6 mt-3">
+          <div class="card cert-card">
+            <div class="card-body">
+              <img class="img-fluid java-besant" src="./assets/java2.png" alt="java"><span class="ps-3">Java Trainee at
+                <a class="text-decoration-none" href="https://www.linkedin.com/company/besant-technologies-velachery/"
+                  target="_blank">Besant technologies</a>, Velachery, Chennai</span>
+              <br><br>
+              <a href="https://drive.google.com/file/d/15x_DbGHD3zg9TRiuQD4MUmQ-qKAh5WNP/view?usp=drive_link"
+                class="btn btn-primary" target="_blank">Show Credential <i class="fa-solid fa-square-up-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12 mt-3">
+          <div class="card cert-card">
+            <div class="card-body">
+              <img class="img-fluid tcs-nqt" src="./assets/tcs-nqt.png" alt="tcs"><span class="ps-3">Completed the TCS
+                NQT in July 2022 with a score of 66.50 %</span>
+              <br><br>
+              <a href="https://drive.google.com/file/d/10WQddN5XA1GG4SYk-zuj5EgtuRPqWmbD/view?usp=sharing"
+                class="btn btn-primary" target="_blank">Show Credential <i class="fa-solid fa-square-up-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br>
+    </div>
+  </div>
+  <br>
+  <hr>
+  <div id="contact" class="bg-dark">
+    <div class="container">
+      <h3 class="about-title text-white pt-3">Contact</h3>
+      <div class="row">
+        <div class="col-md-4 col-sm-12 mt-3">
+          <a class="nav-link text-decoration-none text-center text-white" href="tel:+918056988448 "><i class="fa-solid fa-phone"></i>
+            +91-8056988448</a>
+        </div>
+        <div class="col-sm-12 col-md-4 mt-3">
+        <a class="nav-link text-white text-center" href="mailto:prakashpm2001@gmail.com"><i class="fa-regular fa-envelope"></i> prakashpm2001@gmail.com</a>
+        </div>
+       
+        <div class="col-md-4 col-sm-12 mt-3">
+          <div class="nav-link text-decoration-none text-center text-white"><i class="fa-solid fa-location-dot"></i>
+            Chennai</div>
+        </div>
+      </div>
+      <br>
+    </div>
+  </div>
+
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
